@@ -31,7 +31,7 @@ See our [project page](http://iizuka.cs.tsukuba.ac.jp/projects/remastering/) for
 
   Satoshi Iizuka, University of Tsukuba
   iizuka@cs.tsukuba.ac.jp, http://iizuka.cs.tsukuba.ac.jp/index_eng.html
-  
+
   Edgar Simo-Serra, Waseda University
   ess@waseda.jp, https://esslab.jp/~ess/
 ```
@@ -46,6 +46,17 @@ See our [project page](http://iizuka.cs.tsukuba.ac.jp/projects/remastering/) for
 - [tqdm](https://github.com/tqdm/tqdm)
 
 For information on how to install PyTorch, please refer to the [PyTorch website](https://pytorch.org/). FFmpeg should be installed with libx264 support, which can be installed in Anaconda by using <code>conda install x264 ffmpeg -c conda-forge</code>.
+
+### Simple installation process
+- Create a python virtual environment and install the python packages:
+  ```bash
+  pip install -r requirements.txt
+  ```
+- Install FFmpeg
+  ```
+  brew install ffmpeg # for MacOS
+  ```
+
 
 ## Usage
 
@@ -101,7 +112,3 @@ If you use this code please cite:
   articleno = 176,
 }
 ```
-
-
-
-
