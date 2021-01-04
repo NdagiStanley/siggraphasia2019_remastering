@@ -1,4 +1,4 @@
-opencv-python==4.2.0.34
+opencv-python==4.5.1.48
 scikit-image==0.16.2
 torch==1.5.0
 torchvision==0.6.0
